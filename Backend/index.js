@@ -26,3 +26,5 @@ server.listen(port,(err)=>{
     }
     console.log(`Server upon port:${port}`);
 });
+
+module.exports = server;
